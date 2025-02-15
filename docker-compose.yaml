@@ -1,0 +1,7 @@
+services:
+  simple_model:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/project
